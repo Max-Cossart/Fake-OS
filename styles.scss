@@ -1,0 +1,26 @@
+@use "./modules/calc.scss";
+@use "./modules/todo.scss";
+@use "./modules/carousel.scss";
+@use "./modules/home.scss";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.hide-app {
+  visibility: hidden;
+}
+
+.close-btn {
+  color: red;
+  font-weight: bolder;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  cursor: pointer;
+  z-index: 5;
+}
